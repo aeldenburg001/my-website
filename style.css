@@ -1,0 +1,25 @@
+body {
+    background-color: #ECF1F2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #3B8686;
+    text-align: center;
+    text-decoration-style: solid;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h6 {
+    text-decoration-style: solid;
+}
+
+.portfolio-content {
+    background-color: #3B8686;
+}
+
+footer {
+    text-align: center;
+    color: #3B8686;
+    background: #fff;
+}
