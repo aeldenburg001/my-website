@@ -14,9 +14,9 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <!-- Bootstrap script goes here -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- Fav Icon / Logo-->
-	<link rel="shortcut icon" type="image/x-icon" href="images/fav.png">
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
 </head>
 <body>
 
@@ -27,9 +27,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                   <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="Andrew-Website.html">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                    <a class="nav-item nav-link" href="contact-me.html">Contact</a>
+                    <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="assets/html/portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link" href="assets/html/contact-me.html">Contact</a>
                     
                   </div>
                 </div>
@@ -43,22 +43,23 @@
                         <div class="card mb-8">
                                 <div class="row no-gutters">
                                         <div class="col-md-4">
-                                          <img src="images/profile.png" class="card-img" style="width:100%" alt="profile picture">
+                                          <img src="assets/images/profile.png" class="card-img" style="width:100%" alt="profile picture">
                                         <!-- <img src="https://lexmachina.com/wp-content/uploads/2017/01/team_andrew.jpg" class="card-img" alt="profile picture"> -->
                                         </div>
                                         <div class="col-md-8">
                                                 <div class="card-body">
                                                 <h3 class="card-title">About Me</h3>
-                                                <p class="card-text">Tech enthusiast / analytics nerd.</p>
-                                                  <br>
-                                                <p>Currently learning full stack web development at the University of Oregon.</p>
+                                                <p class="card-text">I am a certified Full-Stack web developer with a background in sales and analytics.</p>
+                                                <br>
+                                                <p>I currently work as a Customer Success Manager for <a href="https://lexmachina.com/">Lex Machina</a>.</p>
+                                                
                                                 <p class="card-text"><small class="text-muted"></small></p>
                                                 </div>
                                         </div>
                                     </div>
                                 </div>
                   </div>
-                  <div class="col">
+                  <div class="col" id="featured">
                         
                             <div class="card">
                                 <div class="card-header">
@@ -83,7 +84,7 @@
 
 <br>
 
-                <div class="row">
+                <div class="row" id="projects">
                   <div class="col">
 
                         <div class="card">
@@ -97,7 +98,7 @@
                                         <img src="https://www.lyfemarketing.com/blog/wp-content/uploads/2018/04/interactive-website-design-gif.gif" href="assets/html/websites.html" class="icon" style="width:100%" alt="websites">
                                         
                                         <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="assets/html/websites.html" class="btn btn-outline-dark">Go</a>
+                                        <a href="assets/html/websites.html" class="btn btn-outline-dark">View My Websites</a>
                                 </div>
                               </div>
                         
@@ -114,7 +115,7 @@
                                         <!-- <img src="https://cdn.dribbble.com/users/631649/screenshots/1916497/1.gif" class="thumbs" alt="games"> -->
                                         
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="assets/html/games.html" class="btn btn-outline-dark">Go</a>
+                                        <a href="assets/html/games.html" class="btn btn-outline-dark">Play My Games</a>
                                 </div>
                               </div>
 
@@ -132,7 +133,7 @@
                                         <img src="https://cdn.dribbble.com/users/1087014/screenshots/2618220/phone.gif" href="assets/html/apps.html" class="icon" style="width:100%" alt="apps">
                                         
                                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="assets/html/apps.html" class="btn btn-outline-dark">Go</a>
+                                        <a href="assets/html/apps.html" class="btn btn-outline-dark">Try My Apps</a>
                                 </div>
                               </div>
 
@@ -150,13 +151,28 @@
               <div class="container">
                   <div class="row">
                     <div class="col-sm">
-                        <img src="images/logo6.png" class="card-img" style="width:100%" alt="logos">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="assets/images/logo6.png" class="card-img" style="width:100%" alt="logos">
+
+                            </div>
+                          </div>
                     </div>
                     <div class="col-sm">
-                        <img src="images/logo.png" class="card-img" style="width:100%" alt="logos">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="assets/images/logo.png" class="card-img" style="width:100%" alt="logos">
+
+                            </div>
+                          </div>
                     </div>
                     <div class="col-sm">
-                        <img src="images/logo2.png" class="card-img" style="width:100%" alt="logos">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="assets/images/logo2.png" class="card-img" style="width:100%" alt="logos">
+
+                            </div>
+                          </div>
                     </div>
                   </div>
 
@@ -164,13 +180,28 @@
 
                   <div class="row">
                     <div class="col-sm">
-                        <img src="images/logo8.png" class="card-img" style="width:100%" alt="logos">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="assets/images/logo8.png" class="card-img" style="width:100%" alt="logos">
+
+                            </div>
+                          </div>
                     </div>
                     <div class="col-sm">
-                        <img src="images/logo7.png" class="card-img" style="width:100%" alt="logos">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="assets/images/logo7.png" class="card-img" style="width:100%" alt="logos">
+
+                            </div>
+                          </div>
                     </div>
                     <div class="col-sm">
-                        <img src="images/logo4.png" class="card-img" style="width:100%" alt="logos">
+                        <div class="card">
+                            <div class="card-body">
+                                                      <img src="assets/images/logo4.png" class="card-img" style="width:100%" alt="logos">
+
+                            </div>
+                          </div>
                     </div>
                   </div>
 
@@ -193,11 +224,11 @@
                             <!-- buttons -->
                             <div class="buttons">
                                     <!-- buttons-inner -->
-                                    <div class="buttons-inner">
-                                            <a href="https://github.com/aeldenburg001"><img class="icons" style="width:10%" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_circle_black-256.png" title="GitHub" alt="github"></a>
-                                            <a href="https://www.linkedin.com/in/aeldenburg/"><img class="icons" style="width:10%" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_black-256.png" title="LinkedIn" alt="linkedin"></a>
-                                            <a href="https://www.instagram.com/aeldenburg/"><img class="icons" style="width:10%" src="https://cdn3.iconfinder.com/data/icons/picons-social/57/78-instagram-256.png" title="Instagram" alt="instagram"></a>
-                                            <a href="contact-me.html"><img class="icons" style="width:10%" src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-contact-256.png" title="Contact" alt="contact"></a>
+                                    <div class="buttons-inner" id="buttons">
+                                            <a href="https://github.com/aeldenburg001"><img class="icons" style="width:8%" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_circle_black-256.png" title="GitHub" alt="github"></a>
+                                            <a href="https://www.linkedin.com/in/aeldenburg/"><img class="icons" style="width:8%" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_black-256.png" title="LinkedIn" alt="linkedin"></a>
+                                            <a href="https://www.instagram.com/aeldenburg/"><img class="icons" style="width:8%" src="https://cdn3.iconfinder.com/data/icons/picons-social/57/78-instagram-256.png" title="Instagram" alt="instagram"></a>
+                                            <a href="assets/html/contact-me.html"><img class="icons" style="width:8%" src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-contact-256.png" title="Contact" alt="contact"></a>
                                     </div><!-- /buttons-inner -->   
                                 </div><!-- /buttons -->
                       </div>
@@ -208,6 +239,23 @@
                         <!--3 of 3-->
                       </div>
                     </div>
+
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-sm">
+                          <!--One of three columns-->
+                        </div>
+                        <div class="col-sm">
+                          <!--One of three columns-->
+                        </div>
+                        <div class="col-sm">
+                          <!--One of three columns-->
+                        </div>
+                      </div>
+                    </div>
+
+
+
                   </div>
 <footer>
   &copy Andrew Eldenburg, 2019
