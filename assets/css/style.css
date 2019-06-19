@@ -79,6 +79,11 @@ p {
     width: 70%;
 }
 
+.icon {
+    width: 55%;
+    height: 45%;
+}
+
 footer {
     text-align: center;
     color: #3B8686;
