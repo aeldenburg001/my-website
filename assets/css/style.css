@@ -1,27 +1,31 @@
+html {
+    background-color: #e8a87c;
+}
+
 body {
-    background-color: #9AC1C1;
+    background-color: #489395;
     font-family: 'Montserrat', sans-serif;
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 2px;
 }
 
-h1, h2, h3, h4, h5 {
-    color: #183737;
+h1, h2, h3 {
+    color: #489395;
     text-align: center;
     text-decoration-style: solid;
     font-family: 'Montserrat', sans-serif;
 }
 
-h6 {
+h4, h5, h6 {
     text-decoration-style: solid;
-    color: #183737;
+    color: #e8a87c;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 p {
     text-decoration-style: solid;
-    color: #183737;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -42,13 +46,16 @@ p {
     width: 80%;
 }
 
+.port-page {
+    background-color: #489395;
+}
+
 #feat-cont {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 75%; 
 }
-
 #des-cont {
     display: block;
     margin-left: auto;
@@ -56,11 +63,19 @@ p {
     width: 90%;  
 }
 
+.cont-page {
+    background-color: #489395;
+}
+
+.projects-page {
+    background-color: #e8a87c;
+}
+
 #resume {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 85%;
+    width: 95%;
 }
 
 #featured {
@@ -82,7 +97,7 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 85%; 
+    width: 80%; 
     text-align: center;
 }
 
@@ -138,15 +153,35 @@ p {
     width: 60%;
 }
 
+.design-cont {
+    background-color: #ECF1F2;
+}
+
 #projects {
     margin-left: auto;
     margin-right: auto;
     width: 95%;
     text-align: center;
+    color: #3B8686;
+    
 }
+
+.web {
+    
+    background-color: #ECF1F2;
+}
+
+.game {
+    background-color: #ECF1F2;
+}
+
+.apps {
+    
+    background-color: #ECF1F2;
+}
+
 
 footer {
     text-align: center;
-    color: #3B8686;
-    background-color: #ECF1F2;
+    background-color: #489395;
 }
