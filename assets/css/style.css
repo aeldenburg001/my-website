@@ -1,48 +1,49 @@
-html {
-    background-color: #e8a87c;
-}
-
 body {
     background-color: #489395;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding: 2px;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    padding: 1px;
 }
 
 h1, h2, h3 {
     color: #489395;
     text-align: center;
     text-decoration-style: solid;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Damion', cursive;
 }
 
 h4, h5, h6 {
     text-decoration-style: solid;
     color: #e8a87c;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     text-align: center;
 }
 
 p {
     text-decoration-style: solid;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .container {
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
 
 .card {
-    margin-top: 3px;
-    margin-bottom: 3px;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
 
 #port-cont {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
     width: 80%;
 }
 
@@ -54,6 +55,8 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
     width: 75%; 
 }
 #des-cont {
@@ -68,13 +71,15 @@ p {
 }
 
 .projects-page {
-    background-color: #e8a87c;
+    background-color: #ECF1F2;
 }
 
 #resume {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
     width: 95%;
 }
 
@@ -82,6 +87,8 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
     width: 90%; 
     text-align: center;
 }
@@ -90,6 +97,8 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
     width: 50%; 
 }
 
@@ -97,6 +106,8 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
     width: 80%; 
     text-align: center;
 }
@@ -105,6 +116,8 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
     width: 65%;
 }
 
@@ -112,6 +125,8 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
     width: 60%;
     height: 75%;
 }
@@ -120,14 +135,18 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 78%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: 46%;
 }
 
 #jumbo-pic {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    width: 60%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: 80%;
     margin-top: 8%;
 }
 
@@ -135,6 +154,8 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
     width: 85%;
     text-align: center;
 }
@@ -143,6 +164,8 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
     width: 60%; 
 }
 
@@ -160,6 +183,8 @@ p {
 #projects {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
     width: 95%;
     text-align: center;
     color: #3B8686;
