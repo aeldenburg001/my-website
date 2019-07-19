@@ -34,10 +34,10 @@ h4, h5 {
 }
 
 h6 {
-    vertical-align: middle;
-    margin-top: 15%;
-    margin-right: 20%;
     margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    margin-top: 10%;
     color: #ECF1F2;
     text-decoration-style: solid;
     font-family: 'Titillium Web', sans-serif;
@@ -95,7 +95,7 @@ p.small { font-size: 16px; }
     border: 0;
 }
 
-.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+.navbar > .navbar-brand, .navbar > .container .container-fluid .navbar-brand {
     margin-left: -15px;
 }
 .navbar-default .navbar-brand {
@@ -247,8 +247,9 @@ p.small { font-size: 16px; }
 }
 
 #jumbo-pic {
+    margin-left: auto;
     margin-right: auto;
-    margin-left: 20%;
+    display: block;
     width: 70%;
     margin-top: 5%;
 }
