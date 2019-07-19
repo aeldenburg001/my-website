@@ -7,11 +7,13 @@ a.active {
     color: #ffffff;
 }
 
+html {
+    background-color: #489395;
+}
+
 body {
     overflow-x: hidden;
     background-color: #489395;
-    margin-top: 2px;
-    margin-bottom: 1px;
     padding: 1px;
 }
 
@@ -32,6 +34,11 @@ h4, h5, h6 {
 }
 
 p {
+    vertical-align: middle;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: 20%;
+    color: #ECF1F2;
     text-decoration-style: solid;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -130,8 +137,6 @@ p.small { font-size: 16px; }
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1px;
-    margin-bottom: 1px;
 }
 
 #port-cont {
@@ -231,19 +236,16 @@ p.small { font-size: 16px; }
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    width: 30%;
+    width: 24%;
 }
 
 #jumbo-pic {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 1px;
     margin-bottom: 1px;
     width: 80%;
-    margin-top: 8%;
+    margin-top: 5%;
 }
 
 #jumbo {
@@ -413,3 +415,11 @@ label{
    float: left;
    }
 }
+
+.jumbotronOne{background-color: #489395!important;}
+
+.jumbotronTwo{background-color: #ECF1F2!important;}
+
+.jumbotronThree{background-color: #ECF1F2!important;}
+.jumbotronFour{background-color: #ECF1F2!important;}
+.jumbotronFive{background-color: #FFF!important;}
