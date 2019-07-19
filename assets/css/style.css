@@ -4,7 +4,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #ffffff;
+    color: #489395;
 }
 
 html {
@@ -25,7 +25,7 @@ h1, h2, h3 {
     font-weight: 700;
 }
 
-h4, h5, h6 {
+h4, h5 {
     text-decoration-style: solid;
     color: #e8a87c;
     font-family: 'Titillium Web', sans-serif;
@@ -33,12 +33,18 @@ h4, h5, h6 {
     font-weight: 700;
 }
 
+h6 {
+    vertical-align: middle;
+    margin-top: 15%;
+    margin-right: 30%;
+    color: #ECF1F2;
+    text-decoration-style: solid;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+}
+
 p {
     vertical-align: middle;
-    margin-top: 10%;
-    margin-left: auto;
-    margin-right: 20%;
-    color: #ECF1F2;
     text-decoration-style: solid;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -240,10 +246,7 @@ p.small { font-size: 16px; }
 }
 
 #jumbo-pic {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 1px;
+    margin-left: 30%;
     width: 80%;
     margin-top: 5%;
 }
