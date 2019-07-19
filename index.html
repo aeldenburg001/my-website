@@ -14,6 +14,9 @@
         <link href="https://fonts.googleapis.com/css?family=Damion|Titillium+Web&display=swap" rel="stylesheet">
         <!-- Bootstrap script goes here -->
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+        <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css'>
+        
         <!-- CSS Stylesheet-->
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <!-- Fav Icon / Logo-->
@@ -21,7 +24,7 @@
 </head>
 <body>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
                       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
@@ -33,11 +36,41 @@
                           
                         </div>
                       </div>
-        </nav>
+        </nav> -->
 
+          <!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+    
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainnav-navbar-collapse">
+                Menu <span class="fa fa-bars"></span>
+            </button>
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html"></a>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="collapse navbar-collapse" id="mainnav-navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="page-scroll">
+                    <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="page-scroll">
+                    <a class="nav-item nav-link" href="assets/html/portfolio.html" target="_blank">Portfolio</a>
+                </li>
+                <li class="page-scroll">
+                    <a class="nav-item nav-link" href="assets/html/contact-me.html" target="_blank">Contact</a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+</nav>
+<!-- / Navigation -->
         
         <!-- About Me section -->
-        <div class="card" id="jumbo">
+        <div class="card" class="img-responsive wow fadeInRight" id="jumbo">
                 <div class="card-body">
                         <div class="container-fixed">
                                 <!-- <div class="row"> -->
@@ -49,14 +82,28 @@
                                   
                                   <div class="col-sm">
                                     <!-- Logo -->
-                                    <img src="assets/images/new-logo.png" class="card-img" id="logo" alt="logos">
-                                    <!--About Me-->
-                                    <p>I'm a full-stack web developer with a background in sales and analytics.</p> 
-                                    <p>I currently work as a Customer Success Manager for <a href="https://lexmachina.com/" target="_blank">Lex Machina</a>.</p>
+                                    <img class="img-responsive wow zoomIn" src="assets/images/new-logo.png" class="card-img" id="logo" alt="Mainicon">
+
+                                    <!-- #Introduction -->
+                                    <section id="introduction">
+                                            <div class="container">
+                                                <div class="row">
+                                                            <div class="col-sm" text-center>
+                                                                    <div class="intro-text">
+                                                                            <div class="name wow fadeInLeft"></div>
+                                                                            <div class="skills wow fadeInRight"><p>I'm a full-stack web developer with a background in sales and analytics. I have a diverse set of skills that allow me to efficiently work both client side and server side.</p></div>
+                                                                        </div>
+                                                            </div>
+                                                </div>
+                                            </div>
+                                                    
+                                        </section>
+                                        <!-- / #Introduction -->
+            
                                     
                                     <!-- buttons -->
                                     <br>
-                                    <div class="buttons">
+                                    <div class="buttons" >
                                         <!-- buttons-inner -->
                                         <div class="buttons-inner">
                                             <a href="https://github.com/aeldenburg001" target="_blank"><img class="icons" style="width:4%" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_circle_black-256.png" title="GitHub" alt="github"></a>
@@ -68,19 +115,32 @@
                                   </div>
                                 </div>
                               </div>
-                </div>
-              </div>
+            </div>
 
-                  <br><br>
+            <div class="container">
+                    <div class="row">
+                      <div class="col-sm">
+                            <img class="img-responsive wow fadeInLeft" src="assets/images/sau.jpg" style="width:62%" class="card-img" id="jumbo-pic" alt="profile pic">
+                      </div>
+                      <div class="col-sm">
+                        <img class="img-responsive wow zoomIn" src="assets/images/profile.png" style="width:65%" class="card-img" id="jumbo-pic" alt="profile pic">
+                      </div>
+                      <div class="col-sm">
+                            <img class="img-responsive wow fadeInRight" src="assets/images/falls.jpg" style="width:58%" class="card-img" id="jumbo-pic" alt="profile pic">
+                      </div>
+                    </div>
+                  </div>
+
+            <br><br>
 
                    <div class="featured-page">
 
                     
 
                    <!-- Featured content section -->
-                   <div class="container" id="feat-cont"> 
+                  <!-- <div class="container" id="feat-cont"> 
                          <div class="row">
-                          <div class="col-md" id="featured">
+                          <div class="col-md" id="featured"> -->
 
                             <!-- <div class="card"> -->
                                 <!-- <div class="card-header"> -->
@@ -100,22 +160,22 @@
                             
                           </div> -->
                           <!-- Featured content goes here -->
-                          <div class="col-md" id="featured">
+                         <!-- <div class="col-md" id="featured">
                               
                                   <div class="card">
                                       <div class="card-header">
                                         <h3>Featured Game</h3>
                                       </div>
-                                      <div class="card-body">
+                                      <div class="card-body"> 
                                               
-                                              <img src="http://66.media.tumblr.com/2f5305937c58a65502917639a01732d6/tumblr_n50m76NQJ21ts7zvxo1_500.gif" class="card-img" id="featured-img" alt="pokemon">
+                                              <img src="http://66.media.tumblr.com/2f5305937c58a65502917639a01732d6/tumblr_n50m76NQJ21ts7zvxo1_500.gif" class="card-img" id="featured-img" alt="pokemon"> -->
                                               <!-- <img src="https://media.giphy.com/media/2ukGH9ROKlXuo/giphy.gif" class="card-img" alt="pokemon"> -->
                                               <!-- https://pa1.narvii.com/5737/f33f8082d52b5f7951e04c10ce7c7acb59f57ab2_hq.gif -->
                                               <!-- https://i.pinimg.com/originals/9f/1d/58/9f1d582d5a8045fec25f03530d73dd24.gif -->
                                               
                                               
       
-                                              <br>
+                                             <!-- <br>
                                               <h5 class="card-title">Pokemon Battle Simulator</h5>
                                           <p class="card-text">Choose your Pokemon and battle your way to victory.</p>
                                           <a href="https://aeldenburg001.github.io/Pokemon-Battle-Simulator/index.html" class="btn btn-outline-dark" target="_blank">Play Now</a>
@@ -128,7 +188,7 @@
 
                     </div>
 
-                    <br><br>
+                    <br><br> -->
 
                       
 
@@ -142,7 +202,7 @@
                         <div class="row" id="projects">
 
                             <!-- Websites content -->
-                            <div class="col-sm">
+                            <div class="col-sm wow zoomIn">
                                 <div class="card">
                                     <div class="card-header">
                                         <h6>Websites</h6>
@@ -154,7 +214,7 @@
                             </div>
 
                             <!-- Games content -->
-                            <div class="col-sm">
+                            <div class="col-sm wow zoomIn">
                                 <div class="card">
                                     <div class="card-header">
                                         <h6>Games</h6>
@@ -167,7 +227,7 @@
                             </div>
 
                             <!-- Apps content -->
-                            <div class="col-sm">
+                            <div class="col-sm wow zoomIn">
                                 <div class="card">
                                     <div class="card-header">
                                         <h6>Apps</h6>
@@ -193,7 +253,7 @@
                         <div class="container-fixed" id="des-cont">
                             <div class="row">
                                 <!-- Col 1 of 3 -->
-                                <div class="col-sm">
+                                <div class="col-sm wow zoomIn">
                                     <div class="card">
                                         <div class="card-body">
                                             <img src="assets/images/logo6.png" class="design" alt="logos">
@@ -201,7 +261,7 @@
                                     </div>
                                 </div>
                                 <!-- Col 2 of 3 -->
-                                <div class="col-sm">
+                                <div class="col-sm wow zoomIn">
                                     <div class="card">
                                         <div class="card-body">
                                             <img src="assets/images/logo.png" class="design" alt="logos">
@@ -209,7 +269,7 @@
                                     </div>
                                 </div>
                                 <!-- Col 3 of 3 -->
-                                <div class="col-sm">
+                                <div class="col-sm wow zoomIn">
                                     <div class="card">
                                         <div class="card-body">
                                             <img src="assets/images/logo2.png" class="design" alt="logos">
@@ -221,7 +281,7 @@
                             <!-- 2nd row for design content -->
                             <div class="row">
                                 <!-- Col 1 of 3-->
-                                <div class="col-sm">
+                                <div class="col-sm wow zoomIn">
                                     <div class="card">
                                         <div class="card-body">
                                             <img src="assets/images/logo8.png" class="design" alt="logos">
@@ -229,7 +289,7 @@
                                     </div>
                                 </div>
                                 <!-- Col 2 of 3-->
-                                <div class="col-sm">
+                                <div class="col-sm wow zoomIn">
                                     <div class="card">
                                         <div class="card-body">
                                             <img src="assets/images/logo7.png" class="design" alt="logos">
@@ -237,7 +297,7 @@
                                     </div>
                                 </div>
                                 <!-- Col 3 of 3-->
-                                <div class="col-sm">
+                                <div class="col-sm wow zoomIn">
                                     <div class="card">
                                         <div class="card-body">
                                             <img src="assets/images/logo4.png" class="design" alt="logos">
@@ -256,12 +316,58 @@
                                     <!--1 of 2-->
                                 </div>
                                 <div class="col">
-                                    <!--2 of 2-->
+
+                                <!-- #Contact -->
+                                <section class="contact-section" id="contact">
+                                        <div class="container">
+                                    
+                                                    <ul class="list-inline text-center">
+                                                        <li>
+                                                            <a href="https://github.com/aeldenburg001" target="_blank" class="btn-social btn-outline wow lightSpeedIn" alt="Github"><i class="fa fa-github"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://www.linkedin.com/in/aeldenburg/" target="_blank" class="btn-social btn-outline wow lightSpeedIn"><i class="fa fa-fw fa-linkedin"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a id="emailicon" class="btn-social btn-outline wow lightSpeedIn"><i class="fa fa-fw fa-envelope"></i></a>
+                                                        </li>
+                                    
+                                                        <div class="fliter-modal" id="flitermodal">
+                                                            <div class = "fliter-modal-content">
+                                                                <span class="fliter-modal-close"> × </span>
+
+                                                                <form action="https://formspree.io/mluo0301@gmail.com" method="POST">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <label for="name">Name</label>
+                                                                            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                                                                        </li>
+                                                                         <li>
+                                                                            <label for="email">Email</label>
+                                                                            <input type="email" id="email" name="email" placeholder="example@mail.com" required="required">
+                                                                        </li>
+                                                                        <li>
+                                                                            <label for="message">Message</label>
+                                                                            <textarea id="message" name="message" required="required"></textarea>
+                                                                        </li>
+                                                                        </ul>
+                                                                        <input type="submit">
+                                                                    </form>
+                                                                
+                                                            </div> 
+                                                        </div>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!-- / #Contact -->
+
                                 </div>
                             </div>
                                 <div class="row">
                                     
-                                    <div class="col">
+                                    <div class="col wow fadeInLeft"> 
                                         
                                             <!-- buttons -->
                                             <div class="buttons">
@@ -283,11 +389,18 @@
                                 </div>
 
                             </div>
+                        
 
-                                <br>
+                               
+                            <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+                            <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js'></script>
+                            <script src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js'></script>
+                            <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
+                            <script src="assets/js/index.js"></script>
 
               <footer>
                 &copy Andrew Eldenburg, 2019
               </footer> 
+
 </body>
 </html>
